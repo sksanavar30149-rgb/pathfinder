@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Options - PathFinder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>PathFinder</span>
+      </a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="careers.html" class="active">Career Options</a>
+        <a href="resources.html">Resources</a>
+        <a href="project.html">Our Project</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Explore Career Opportunities After 10th</h2>
+        <p>Completing your 10th class opens the door to many educational pathways. Explore the options below and understand which path suits your interests.</p>
+      </div>
+
+      <div class="grid grid-2">
+        <!-- MPC -->
+        <div class="card reveal">
+          <div class="card-icon">📐</div>
+          <h3>Intermediate – MPC</h3>
+          <p><strong>Full Form:</strong> Mathematics, Physics, Chemistry</p>
+          <p>Suitable for students interested in mathematics, science, technology, and engineering.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> 2 Years</li>
+            <li><strong>Eligibility:</strong> Passed 10th Standard</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="mpc">Learn More Details</button>
+        </div>
+
+        <!-- BiPC -->
+        <div class="card reveal">
+          <div class="card-icon">🧬</div>
+          <h3>Intermediate – BiPC</h3>
+          <p><strong>Full Form:</strong> Biology, Physics, Chemistry</p>
+          <p>Suitable for students interested in biology, healthcare, and life sciences.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> 2 Years</li>
+            <li><strong>Eligibility:</strong> Passed 10th Standard</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="bipc">Learn More Details</button>
+        </div>
+
+        <!-- CEC -->
+        <div class="card reveal">
+          <div class="card-icon">📊</div>
+          <h3>Intermediate – CEC</h3>
+          <p><strong>Full Form:</strong> Civics, Economics, Commerce</p>
+          <p>Helps students understand business, economics, society, and commerce.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> 2 Years</li>
+            <li><strong>Eligibility:</strong> Passed 10th Standard</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="cec">Learn More Details</button>
+        </div>
+
+        <!-- MEC -->
+        <div class="card reveal">
+          <div class="card-icon">📈</div>
+          <h3>Intermediate – MEC</h3>
+          <p><strong>Full Form:</strong> Mathematics, Economics, Commerce</p>
+          <p>Suitable for students interested in mathematics, economics, finance, and business.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> 2 Years</li>
+            <li><strong>Eligibility:</strong> Passed 10th Standard</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="mec">Learn More Details</button>
+        </div>
+
+        <!-- Diploma / Polytechnic -->
+        <div class="card reveal">
+          <div class="card-icon">⚙️</div>
+          <h3>Diploma / Polytechnic</h3>
+          <p>Provides technical and practical education in engineering and technical fields.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> Usually 3 Years</li>
+            <li><strong>Eligibility:</strong> Passed 10th (Entrance Exam based)</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="polytechnic">Learn More Details</button>
+        </div>
+
+        <!-- ITI -->
+        <div class="card reveal">
+          <div class="card-icon">🛠️</div>
+          <h3>Industrial Training Institute (ITI)</h3>
+          <p>Practical and job-oriented technical training to develop specific industry skills.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> 1 to 2 Years</li>
+            <li><strong>Eligibility:</strong> Passed 10th Standard</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="iti">Learn More Details</button>
+        </div>
+
+        <!-- Vocational Courses -->
+        <div class="card reveal">
+          <div class="card-icon">💼</div>
+          <h3>Vocational Courses</h3>
+          <p>Focused on immediate practical skills and industry-related operational training.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> 1 to 2 Years</li>
+            <li><strong>Eligibility:</strong> Passed 10th Standard</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="vocational">Learn More Details</button>
+        </div>
+
+        <!-- Skill Development -->
+        <div class="card reveal">
+          <div class="card-icon">🚀</div>
+          <h3>Skill Development Programs</h3>
+          <p>Short supplementary courses to build specialized technical and digital capabilities.</p>
+          <ul class="card-meta">
+            <li><strong>Duration:</strong> 3 to 6 Months</li>
+            <li><strong>Eligibility:</strong> Open to all students</li>
+          </ul>
+          <button class="btn btn-secondary modal-trigger" data-course="skill">Learn More Details</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal Overlay -->
+  <div class="modal" id="course-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div id="modal-body-content"></div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

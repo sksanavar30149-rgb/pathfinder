@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Project - PathFinder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>PathFinder</span>
+      </a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="careers.html">Career Options</a>
+        <a href="resources.html">Resources</a>
+        <a href="project.html" class="active">Our Project</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Community Service Project</h2>
+        <p>Creating Career Awareness for a Better Future</p>
+      </div>
+
+      <!-- Introduction -->
+      <div class="card reveal mb-2">
+        <h3>Project Overview</h3>
+        <p>Our Community Service Project focuses on creating awareness among 10th class students about the different educational and career opportunities available after completing their secondary education. Through this initiative, we aim to provide useful information about Intermediate courses, Diploma, ITI, Vocational Education, and other career pathways. Our objective is to help students understand their interests, explore available opportunities, and make informed decisions about their future.</p>
+      </div>
+
+      <!-- Objectives -->
+      <h3 class="mt-2 mb-2">Project Objectives</h3>
+      <div class="grid grid-4 mb-2">
+        <div class="card reveal text-center">
+          <div class="card-icon">📢</div>
+          <h4>Create Awareness</h4>
+          <p>Spread awareness about educational opportunities after 10th.</p>
+        </div>
+        <div class="card reveal text-center">
+          <div class="card-icon">📖</div>
+          <h4>Provide Information</h4>
+          <p>Explain different courses, eligibility, duration, and career paths.</p>
+        </div>
+        <div class="card reveal text-center">
+          <div class="card-icon">🧭</div>
+          <h4>Guide Students</h4>
+          <p>Help students understand their interests and strengths.</p>
+        </div>
+        <div class="card reveal text-center">
+          <div class="card-icon">✅</div>
+          <h4>Better Decisions</h4>
+          <p>Support students in making informed educational choices.</p>
+        </div>
+      </div>
+
+      <!-- Gallery -->
+      <h3 class="mt-2 mb-2">CSP Project Photo Gallery</h3>
+      <div class="gallery-grid mb-2">
+
+<div class="gallery-item reveal" data-src="photos/pic1.jpeg">
+  <img src="photos/pic1.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic2.jpeg">
+  <img src="photos/pic2.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic3.jpeg">
+  <img src="photos/pic3.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic1.jpeg">
+  <img src="photos/pic4.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic2.jpeg">
+  <img src="photos/pic5.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic3.jpeg">
+  <img src="photos/pic6.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic1.jpeg">
+  <img src="photos/pic7.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic2.jpeg">
+  <img src="photos/pic8.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic3.jpeg">
+  <img src="photos/pic9.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic1.jpeg">
+  <img src="photos/pic10.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic2.jpeg">
+  <img src="photos/pic11.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic3.jpeg">
+  <img src="photos/pic12.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic1.jpeg">
+  <img src="photos/pic13.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic2.jpeg">
+  <img src="photos/pic14.jpeg" alt="photo">
+</div>
+<div class="gallery-item reveal" data-src="photos/pic3.jpeg">
+  <img src="photos/pic15.jpeg" alt="photo">
+</div>
+        
+        </div>
+      </div>
+
+     
+    </div>
+  </main>
+
+  <!-- Gallery Lightbox Modal -->
+  <div class="modal" id="lightbox-modal">
+    <div class="modal-content text-center">
+      <button class="modal-close" id="lightbox-close-btn">&times;</button>
+      <img id="lightbox-img" src="" alt="Enlarged photo" style="max-width: 100%; height: auto; border-radius: 8px;">
+      <p id="lightbox-caption" style="margin-top: 1rem; font-weight: 500;"></p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
